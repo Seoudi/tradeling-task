@@ -1,0 +1,61 @@
+.repository-card-container {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  display: inline-grid;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  box-sizing: border-box;
+  min-height: 20rem;
+}
+@media only screen and (max-width: 768px) {
+  .repository-card-container {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+.repository-card {
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.repository-card-name {
+  color: darkblue;
+}
+.repository-card-description {
+  color: gray;
+}
+.repository-card-created-at {
+  display: inline-block;
+  color: gray;
+  width: 50%;
+}
+.repository-card-updated-at {
+  display: inline-block;
+  color: gray;
+  width: 50%;
+}
+.repository-card-language {
+  background-color: lightgray;
+  display: inline;
+  border-radius: 1rem;
+  padding: 0.25rem 1rem;
+  margin-right: 1rem;
+}
+.repository-card-stars {
+  display: inline;
+}
+.repository-card-owner-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+.repository-card-owner-name {
+  color: gray;
+  font-size: 14px;
+  display: inline-block;
+}
